@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RIDEUP-INDIA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">RIDEUP-INDIA</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Booking Rates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>  
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">RIDEUP-INDIA</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience-</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container" data-aos="zoom-in" style="margin:0%;">
+        <img src="rideuplogo.png" alt="RIDEUP-INDIA profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">RIDEUP-INDIA</h1>
+        <p class="section__text__p2">OFFERING CYCLING CLASSES</p>
+        <div class="btn-container">
+          
+          <button class="btn btn-color-2">
+            <a href="https://api.whatsapp.com/send?phone=7841988141&text=Book%20a%20ride%20please" target="_blank">
+                BOOK RIDE
+            </a>
+        </button>
+        
+        
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="ins1.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/direct/inbox/'" targate="_blank"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1"<div data-aos="fade-LEFT"></div>Get To Know More</p>
+      <h1 class="title" <div data-aos="fade-UP"></div>About US</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="cycle.webp"
+            alt="Profile picture"
+            class="about-pic"
+            view
+          />
+        </div>
+        <div class="about-details-container" >
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Experience Guider<br /></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Guidance</h3>
+              <p>BEST- cycling tips<br />Health and Nutrition</p>
+            </div>
+          </div>
+          <div class="text-container" <div data-aos="fade-up"
+          data-aos-duration="3000">
+     </div>
+            <p >
+              At our cycling classes, we cater to all age groups. For
+                children, clients are required to manage their own cycles, while
+                for adults, we provide cycles and helmets. The pricing for
+                ground sessions is 550 rupees, and for home sessions, it is 750
+                rupees. The pricing may vary depending upon the distance from
+                the trainer's place. We have received positive testimonials from
+                our clients, which you can find in the testimonials section.
+                Currently, our services are available only in Pune at locations
+                such as Aundh, Baner, Balewadi, Kothrud, Shivajinagar, Akurdi,
+                and Pimpri Chinchwad. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">CYCLE RIDES</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HEATH ADVISE</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FOOD-EXPERT</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BODY STRUCTURE</h3>
+                  <p>GUIDANCE</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SAFETY TIPS</h3>
+                  <p>AVDANCED</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TRAFFIC RULES</h3>
+                  <p>GUIDANCE</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FOLLOWED RULES</h3>
+                  <p>GUIDANCE</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">MOTIVATION</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DO-YOGA</h3>
+                  <p>FOR HEALTH ISSUES</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TRAFFIC RULES</h3>
+                  <p>GUIDELINE</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DAILY SUPPORT</h3>
+                  <p>NEEDED</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TRAINING PLAN</h3>
+                  <p>PERFECT</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">RATE FOR BOOKING</p>
+      <h1 class="title">BOOKING-RATES</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="c1.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">RATE</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='"
+              >
+                750 RS
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='"
+              >
+                HOME SESSION
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="c2.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">RATE</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='"
+              >
+                600 RS
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='"
+              >
+                ON LOCATION
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="c3.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">REFERNCE OFFER 100 RS OFF</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='"
+              >
+                SAVE 100 RS 
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='"
+              >
+                CLAIM REWARDS
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">cosmooneinc@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="whatsapp-icon-.webp"
+            alt="whatsapp-icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://api.whatsapp.com/send?phone=7841988141&text=Book%20a%20ride%20please" target="_blank">Whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 cosmooneinc. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
